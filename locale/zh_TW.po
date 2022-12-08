@@ -1,0 +1,472 @@
+# 商人物語システム 05-03-30 ＋ 標準アイテムセット
+# Copyright (C) 2005 由來
+# This file is distributed under the same license as the PACKAGE package.
+# Neru Uzuki <neru.asobou@gmail.com>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Neru Uzuki <neru.asobou@gmail.com>\n"
+"Language-Team: Neru Uzuki <neru.asobou@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. ($DATA_DIR)
+#: akimono/admin.cgi:23
+msgid " ディレクトリ %1 のパーミッションを見直してください"
+msgstr " 請檢查目錄 %1 的權限"
+
+#: akimono/admin.cgi:20
+msgid "$DATA_DIR の設定不良，もしくは，$DATA_DIR ディレクトリが作成されていません"
+msgstr "未建立 $DATA_DIR 或 $DATA_DIR 目錄的設定錯誤"
+
+#: akimono/admin.cgi:21
+msgid "$SESSION_DIR $TEMP_DIR $LOG_DIR $BACKUP_DIR $SUBDATA_DIR 辺りの設定が異常です"
+msgstr "$SESSION_DIR $TEMP_DIR $LOG_DIR $BACKUP_DIR $SUBDATA_DIR 的設定有異常"
+
+#. ($HTML_TITLE)
+#: akimono/admin.cgi:89 akimono/admin.cgi:92
+msgid "%1 管理室"
+msgstr "%1 管理室"
+
+#. ("<BIG>$TITLE[$Q{t}]</BIG>")
+#: akimono/custom/library.cgi:484
+msgid "%1については，以下の本が見つかりました。"
+msgstr "關於%1的內容，找到了以下的書籍。"
+
+#. (($STATE->{leader} ? $DT[$lid]->{name} : $BAL_NAME)
+#: akimono/custom/inc-town.cgi:133
+msgid "%1の暴政に断固ハンターイ！"
+msgstr "堅決反對%1的暴政！"
+
+#: akimono/custom/inc-menu.cgi:24
+msgid "LogOut"
+msgstr "登出"
+
+#: akimono/custom/inc-menu.cgi:48
+msgid "wis"
+msgstr "密語"
+
+#. (($MAX_USER-$DTusercount)
+#: akimono/index.cgi:23
+msgid "【新規店舗オープン】<small>残り %1 名様</small>"
+msgstr "【開新店舖】<small>剩下 %1 個名額</small>"
+
+#: akimono/index.cgi:24
+msgid "【新規店舗オープン】<small>現在満員</small>"
+msgstr "【開新店舖】<small>名額已滿</small>"
+
+#: akimono/custom/inc-palace.cgi:8
+msgid "いま，我が国の子供たちでハリポタごっこが流行っておるそうだ。"
+msgstr ""
+
+#: akimono/custom/inc-town.cgi:117
+msgid "うちのスライムまた負けちゃった・・・"
+msgstr "我的史萊姆輸了啊・・・"
+
+#: akimono/custom/inc-menu.cgi:21
+msgid "お掃除"
+msgstr "打掃"
+
+#: akimono/custom/inc-hometown.cgi:43
+msgid "きゃんきゃんっ"
+msgstr "鏘鏘"
+
+#: akimono/custom/inc-new.cgi:11
+msgid "このゲームは，ブラウザでプレイできる経営シミュレーションＲＰＧです。"
+msgstr "本遊戲為使用瀏覽器遊玩的經營模擬RPG。"
+
+#: akimono/custom/inc-hometown.cgi:48
+msgid "この街は警戒がぬるくてラッキー♪"
+msgstr "這條街沒什麼戒心真是太幸運了♪"
+
+#: akimono/custom/staff.cgi:16
+msgid "なお，素材をゲームから直接取り出して利用しないでください。"
+msgstr "請不要直接從遊戲中獲取素材並使用。"
+
+#: akimono/custom/inc-menu.cgi:137
+msgid "なし"
+msgstr "無"
+
+#: akimono/custom/inc-new.cgi:8
+msgid "はじめに"
+msgstr "介紹"
+
+#: akimono/custom/inc-hometown.cgi:38
+msgid "はやくマイホームを建てないとなぁ・・・"
+msgstr "我必須快點蓋好我的家啊・・・"
+
+#: akimono/custom/inc-menu.cgi:134
+msgid "ほか"
+msgstr "其他"
+
+#: akimono/custom/inc-town.cgi:127
+msgid "ぽかぽかして気持ちええのぉ・・・"
+msgstr "感覺很溫暖呢..."
+
+#: akimono/custom/inc-town.cgi:134
+msgid "もっと市民の安全を考えろーっ"
+msgstr "應該多考慮市民的安全啊"
+
+#: akimono/custom/inc-hometown.cgi:39
+msgid "やっと結婚できたねっ"
+msgstr "終於可以結婚了呢"
+
+#: akimono/custom/inc-hometown.cgi:34
+msgid "わーい わーい"
+msgstr "哇－ 哇－"
+
+#: akimono/custom/inc-new.cgi:30
+msgid "アイコン"
+msgstr "頭像"
+
+#: akimono/custom/inc-new.cgi:41
+msgid "アイコン一覧"
+msgstr "頭像一覽"
+
+#: akimono/custom/staff.cgi:28
+msgid "アイコン（追加）"
+msgstr "圖示（追加）"
+
+#: akimono/custom/inc-menu.cgi:39 akimono/custom/inc-town.cgi:61
+msgid "ギルド"
+msgstr "商會"
+
+#: akimono/sindex-mob.html:11 akimono/sindex.html:39
+msgid "クッキーで保存"
+msgstr "保存cookie"
+
+#: akimono/custom/staff.cgi:15
+msgid "ゲームの各部分についての著作権は，それぞれ下記の方々に帰属します。"
+msgstr "遊戲各部分內容的著作權歸屬於，請參考以下內容"
+
+#: akimono/custom/library.cgi:468
+msgid "ゲームをプレイするのに必要な知識から，高度な情報まで"
+msgstr "這裡從遊戲遊玩的基礎知識到進階資訊都有"
+
+#: akimono/sindex.html:45
+msgid "スタッフロール"
+msgstr "工作人員名單"
+
+#: akimono/custom/inc-menu.cgi:116
+msgid "トップ"
+msgstr "TOP"
+
+#: akimono/custom/inc-new.cgi:43 akimono/sindex-mob.html:10 akimono/sindex.html:38
+msgid "パスワード"
+msgstr "密碼"
+
+#: akimono/custom/inc-new.cgi:54
+msgid "パスワードは他人が推測できないようなものを。"
+msgstr "請使用他人無法猜到的密碼"
+
+#: akimono/custom/inc-new.cgi:44
+msgid "パスワードもう一度"
+msgstr "再輸入密碼"
+
+#: akimono/custom/staff.cgi:12
+msgid "パスワード漏れの危険があるので表示中止します。"
+msgstr "有暴露密碼的風險作業已中斷。"
+
+#: akimono/custom/inc-menu.cgi:116
+msgid "ホーム"
+msgstr "首頁"
+
+#: akimono/custom/staff.cgi:30
+msgid "マップ・キャラ"
+msgstr "地圖、角色設定"
+
+#: akimono/admin.cgi:138
+msgid "マニュアルを参照して正しく設定して下さい"
+msgstr "請參考使用手冊進行正確的設定"
+
+#: akimono/custom/inc-new.cgi:31
+msgid "ランダム"
+msgstr "隨機"
+
+#: akimono/custom/staff.cgi:26
+msgid "ロゴ・ジョブイラスト"
+msgstr ""
+
+#: akimono/custom/inc-town.cgi:111
+msgid "一気にケリをつけようっ"
+msgstr "讓我們立即開戰吧"
+
+#: akimono/custom/inc-menu.cgi:44
+msgid "交流"
+msgstr "交流"
+
+#: akimono/custom/inc-menu.cgi:42
+msgid "住宅地"
+msgstr "住宅區"
+
+#: akimono/custom/inc-menu.cgi:29 akimono/custom/inc-town.cgi:39
+msgid "依頼所"
+msgstr "委託所"
+
+#: akimono/custom/inc-menu.cgi:20
+msgid "倉庫"
+msgstr "倉庫"
+
+#: akimono/custom/inc-menu.cgi:41
+msgid "傭兵所"
+msgstr "傭兵所"
+
+#: akimono/custom/inc-town.cgi:74
+msgid "兵士駐屯所"
+msgstr "軍營"
+
+#: akimono/custom/inc-new.cgi:47
+msgid "出店キーワード"
+msgstr "開店密碼"
+
+#: akimono/custom/inc-new.cgi:27 akimono/custom/inc-new.cgi:28
+msgid "半角全角OK"
+msgstr "全形半形皆可"
+
+#: akimono/custom/inc-new.cgi:43
+msgid "半角英数のみ"
+msgstr "只能輸入半形英數字"
+
+#: akimono/custom/staff.cgi:24
+msgid "原作"
+msgstr "原作"
+
+#: akimono/custom/inc-new.cgi:12
+msgid "参加する前に，図書館でルールやプレイ方法をよく読んでください。"
+msgstr "註冊前請先閱讀圖書館裡面的規則以及遊玩方法。"
+
+#: akimono/custom/inc-town.cgi:110
+msgid "反乱だ！加勢に行くぞっ"
+msgstr "是叛亂啊！ 我來幫忙"
+
+#: akimono/custom/inc-menu.cgi:22
+msgid "収支"
+msgstr "收支"
+
+#: akimono/custom/inc-menu.cgi:26
+msgid "取引"
+msgstr "交易"
+
+#: akimono/custom/inc-new.cgi:27 akimono/sindex-mob.html:9 akimono/sindex.html:37
+msgid "名前"
+msgstr "名字"
+
+#: akimono/sindex.html:45
+msgid "商人物語 配布元"
+msgstr "商人物語 發佈站"
+
+#: akimono/custom/inc-menu.cgi:28
+msgid "商店通り"
+msgstr "商店街"
+
+#: akimono/custom/inc-menu.cgi:14 akimono/custom/inc-menu.cgi:35 akimono/custom/inc-town.cgi:83 akimono/custom/library.cgi:448
+msgid "図書館"
+msgstr "圖書館"
+
+#: akimono/custom/inc-town.cgi:122
+msgid "図書館の情報は重要だよっ"
+msgstr "圖書館的情報很重要喔"
+
+#: akimono/custom/library.cgi:449 akimono/custom/library.cgi:468 akimono/custom/library.cgi:484
+msgid "図書館員"
+msgstr "圖書館員"
+
+#: akimono/custom/inc-town.cgi:109
+msgid "大変だ・・・。援軍を呼ばないと！"
+msgstr "糟了・・・。要趕快叫援軍來啊！"
+
+#: akimono/custom/inc-menu.cgi:46
+msgid "宅配便"
+msgstr "宅急便"
+
+#: akimono/custom/inc-menu.cgi:30
+msgid "宮殿"
+msgstr "皇宮"
+
+#: akimono/custom/inc-menu.cgi:27 akimono/custom/inc-town.cgi:48
+msgid "市場"
+msgstr "市場"
+
+#: akimono/sindex-mob.html:12 akimono/sindex.html:40
+msgid "店へ入る"
+msgstr "進入店鋪"
+
+#: akimono/custom/inc-menu.cgi:19
+msgid "店内"
+msgstr "店鋪"
+
+#: akimono/custom/inc-new.cgi:28
+msgid "店名"
+msgstr "店名"
+
+#: akimono/custom/inc-hometown.cgi:43
+msgid "待って～っ"
+msgstr "等等啊～"
+
+#: akimono/custom/inc-menu.cgi:32
+msgid "情報"
+msgstr "情報"
+
+#: akimono/custom/inc-palace.cgi:9
+msgid "我が国の民には，もっとおしゃれに気を使って欲しいと思っておる。"
+msgstr ""
+
+#: akimono/custom/inc-palace.cgi:11 akimono/custom/inc-palace.cgi:12 akimono/custom/inc-palace.cgi:13
+msgid "我が国の民には，もっと武術の稽古に励んで欲しいと思っておる。"
+msgstr ""
+
+#: akimono/custom/inc-palace.cgi:10
+msgid "我が国の民には，薬を買う金もない病人がおるのだ。"
+msgstr ""
+
+#: akimono/custom/inc-menu.cgi:23
+msgid "手続"
+msgstr "手續"
+
+#: akimono/custom/inc-menu.cgi:47 akimono/custom/inc-town.cgi:92
+msgid "掲示板"
+msgstr "留言板"
+
+#: akimono/custom/inc-town.cgi:123
+msgid "掲示板のチェックも大切だね。ふむふむ・・・"
+msgstr "嗯嗯~ 觀看留言板很重要呢。"
+
+#: akimono/custom/inc-menu.cgi:13 akimono/custom/inc-menu.cgi:34
+msgid "新聞"
+msgstr "新聞"
+
+#. (($MAX_USER-$DTusercount)
+#: akimono/custom/inc-new.cgi:18
+msgid "新規店舗オープン：残り%1名様"
+msgstr "開新店舖：剩下%1個名額"
+
+#: akimono/custom/inc-menu.cgi:37
+msgid "施設"
+msgstr "設施"
+
+#: akimono/sindex-mob.html:16 akimono/sindex.html:45
+msgid "本サイトの管理者"
+msgstr "本站管理員"
+
+#: akimono/custom/staff.cgi:14
+msgid "案内人"
+msgstr "嚮導"
+
+#. (GetTime2FormatTime($nextday-$TZ_JST+$DATE_REVISE_TIME)
+#: akimono/custom/inc-menu.cgi:117 akimono/custom/inc-menu.cgi:98
+msgid "次回決算 %1 まであと%2"
+msgstr "下次決算 %1 還有%2"
+
+#: akimono/custom/inc-menu.cgi:71
+msgid "活動中"
+msgstr "活動中"
+
+#: akimono/custom/inc-new.cgi:36
+msgid "画像"
+msgstr "頭像"
+
+#: akimono/custom/inc-new.cgi:50
+msgid "登録"
+msgstr "註冊"
+
+#: akimono/custom/inc-new.cgi:20
+msgid "登録は<b>１人１店舗</b>のみ"
+msgstr "<b>一人</b>只能註冊<b>一個店鋪</b>"
+
+#: akimono/custom/inc-hometown.cgi:47
+msgid "盗っ人め・・・待て！"
+msgstr "小偷…別跑啊！"
+
+#: akimono/custom/inc-menu.cgi:40 akimono/custom/inc-town.cgi:26
+msgid "競技場"
+msgstr "競技場"
+
+#: akimono/admin.cgi:135
+msgid "管理メニュー"
+msgstr "管理選單"
+
+#: akimono/admin.cgi:35
+msgid "管理メニューへ"
+msgstr "進入管理選單"
+
+#: akimono/admin.cgi:140 akimono/admin.cgi:60
+msgid "管理メニューへ戻る"
+msgstr "回到管理選單"
+
+#: akimono/admin.cgi:34
+msgid "管理者パスワード"
+msgstr "管理員密碼"
+
+#: akimono/admin.cgi:17
+msgid "管理者パスワードが設定されていません"
+msgstr "沒有設定管理員密碼"
+
+#: akimono/admin.cgi:18
+msgid "管理者メールアドレスが設定されていません"
+msgstr "沒有設定管理員信箱"
+
+#: akimono/custom/inc-menu.cgi:18
+msgid "自店"
+msgstr "自店"
+
+#: akimono/custom/inc-new.cgi:53
+msgid "荒らしと疑われるような名前は避けましょう。"
+msgstr "避免使用可能被視為網路小白的名稱。"
+
+#: akimono/admin.cgi:19
+msgid "街コードが設定されていません"
+msgstr "沒有設定街道代碼"
+
+#: akimono/custom/inc-menu.cgi:11
+msgid "街案内"
+msgstr "街道"
+
+#: akimono/custom/staff.cgi:22
+msgid "製作・著作"
+msgstr "開發、著作權"
+
+#. ($DT[0]->{shopname})
+#: akimono/custom/inc-town.cgi:128
+msgid "買い物はやっぱり%1よねっ"
+msgstr "要買東西還是得去%1呢"
+
+#: akimono/custom/inc-menu.cgi:45
+msgid "郵便局"
+msgstr "郵局"
+
+#: akimono/custom/staff.cgi:13
+msgid "開発スタッフロール"
+msgstr "開發工作人員名單"
+
+#: akimono/custom/staff.cgi:32
+msgid "音楽"
+msgstr "音樂"
+
+#: akimono/custom/library.cgi:469
+msgid "項目ごとに整理されています。よく読んでおくことをおすすめします。"
+msgstr "都有按照項目整理好了。我們建議您仔細閱讀。"
+
+#: akimono/custom/library.cgi:485
+msgid "項目一覧に戻る"
+msgstr "回到項目列表"
+
+#: akimono/custom/inc-town.cgi:111
+msgid "領主を倒せっ"
+msgstr "將領主打倒"
+
+#: akimono/custom/inc-menu.cgi:38
+msgid "領主邸"
+msgstr "領主邸"
+
+#: akimono/custom/inc-menu.cgi:12 akimono/custom/inc-menu.cgi:33
+msgid "風景"
+msgstr "風景"
+
+#: akimono/custom/inc-town.cgi:118
+msgid "食事の材料買いに行かなくっちゃ。"
+msgstr "我得去買做飯的材料了。"
