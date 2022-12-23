@@ -717,9 +717,9 @@
 		exptime	80m
 		scale	組
 		action	製作
-		name	製作奧利哈鋼の腕輪
-		info	製作奧利哈鋼の腕輪
-		okmsg	奧利哈鋼の腕輪製作完成了
+		name	製作奧利哈鋼手鐲
+		info	製作奧利哈鋼手鐲
+		okmsg	奧利哈鋼手鐲製作完成了
 		ngmsg	製作失敗了…
 		func	lostbook
 		param	50
@@ -728,7 +728,7 @@
 			need	1	魔法的知識
 			use		20	奧利哈鋼塊
 			use		2	魔石
-			get		20	奧利哈鋼の腕輪	40%
+			get		20	奧利哈鋼手鐲	40%
 	@@use
 		time	6h
 		exp	2%
@@ -1028,7 +1028,7 @@
 		exp		2%
 		exptime	30m
 		job		山師	times/job_material_time_rate
-		scale	往復
+		scale	趟
 		action	去探索
 		name	探索山腳下
 		info	可以收集各種材料
@@ -1043,7 +1043,7 @@
 		time	2h
 		exp		2%
 		exptime	30m
-		scale	往復
+		scale	趟
 		action	去探索
 		name	探索森林
 		info	可以收集各種材料
@@ -1058,7 +1058,7 @@
 		time	2h
 		exp		2%
 		exptime	30m
-		scale	往復
+		scale	趟
 		action	去探索
 		name	探索動物踪跡
 		info	可以收集材料
@@ -1073,7 +1073,7 @@
 		time	2h
 		exp		2%
 		exptime	30m
-		scale	往復
+		scale	趟
 		action	去探索
 		name	探索叢林深處
 		info	可以收集材料
@@ -1104,7 +1104,7 @@
 		exp		2%
 		exptime	30m
 		job		山師	times/job_material_time_rate
-		scale	往復
+		scale	趟
 		action	收集
 		name	去鐵礦山
 		info	可以收集各種礦物
@@ -1118,7 +1118,7 @@
 		time	2h
 		exp		2%
 		exptime	30m
-		scale	往復
+		scale	趟
 		action	收集
 		name	去秘銀礦山
 		info	可以收集各種礦物
@@ -1132,7 +1132,7 @@
 		time	2h
 		exp		2%
 		exptime	30m
-		scale	往復
+		scale	趟
 		action	收集
 		name	去奧利哈鋼礦山
 		info	可以收集各種礦物
@@ -1162,7 +1162,7 @@
 		exp	2%
 		exptime	2h
 		job		行腳商人	times/job_peddle_time_rate
-		scale	往復
+		scale	趟
 		action	購買
 		price	12000					#★使用時費用額
 		name	去劍的市場收購
